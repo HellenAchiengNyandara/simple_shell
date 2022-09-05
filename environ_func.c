@@ -1,10 +1,10 @@
 
 #include "shell.h"
 /**
- * _getenv - searches environment list for variable name
- * @name: name of the variable
- *
- * Return: returns a pointer to the corresponding value;
+ * _getenv - searches environment list for variable names available
+ * @name: variable name
+ * Description: function to pass environment to the program
+ * Return: pointer
  */
 char *_getenv(char *name)
 {

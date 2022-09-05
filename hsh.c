@@ -1,8 +1,8 @@
 #include "shell.h"
 /**
- * main - super simple shell
+ * main - The simple shell program
  * @argc: number of arguments
- * @argv: array of arguments
+ * @argv: array count of arguments
  *
  * Return: 0
  */

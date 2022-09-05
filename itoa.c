@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * _numlen - find length of number
+ * _numlen - finds the length
  * @n: int
- * Return: length
+ * Return: length of number
  */
 int _numlen(int n)
 {
@@ -18,8 +18,8 @@ int _numlen(int n)
 }
 
 /**
- * _itoa - take an int and convert to string
- * @num: integer to be converted
+ * _itoa - takes an int and converts to string
+ * @num: int to be converted
  * Return: string
  */
 
