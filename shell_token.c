@@ -2,10 +2,10 @@
 #include "shell.h"
 
 /**
- * tokenize - tokenizes buffer with delim
+ * tokenize - tokenizes buffer
  * @buffer: buffer to tokenize
- * @delim: delim
- * Return: pointer to arr of pointers to tokens
+ * @delim: delim (the buffer is tokensized with delim)
+ * Return: pointer to array of pointers to tokens
  */
 
 char **tokenize(char *buffer, char *delim)
@@ -52,9 +52,9 @@ char **tokenize(char *buffer, char *delim)
 }
 
 /**
- * word_count - find word count
- * @s: pointer to string
- * Return: word count
+ * word_count - function to find wordcount
+ * @s: pointer to str
+ * Return: wordcount
  */
 
 int word_count(char *s)

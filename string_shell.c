@@ -2,10 +2,10 @@
 #include "shell.h"
 /**
  * _strcpy - copies string from one pointer to a new pointer
- * @dest: the destination pointer for the copied string
- * @src: the origin pointer of the copied string
+ * @dest: destination pointer for the copied string
+ * @src: origin pointer of the copied string
  *
- * Return: returns the pointer to dest
+ * Return: pointer to string destination
  */
 
 char *_strcpy(char *dest, char *src)
@@ -23,8 +23,8 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * _strlen - returns the length of a string
- * @s: string we find the length of
+ * _strlen - function to return string length
+ * @s: string
  *
  * Return: length of the string
  */
@@ -39,8 +39,7 @@ int _strlen(char *s)
 }
 
 /**
- * _strdup - returns a pointer to newly allocated space in memory that contains
- * a copy of the string given as a parameter
+ * _strdup - returns a pointer to newly allocated space in memory
  * @str: string to copy
  *
  * Return: returns a pointer to the copied string
