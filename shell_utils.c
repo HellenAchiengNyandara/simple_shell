@@ -3,7 +3,7 @@
 /**
  * check_command - checks if command is valid
  * @args: argument vector
- * @program: name of shell
+ * @program: shell name
  * @n: line count
  * Return: returns something
  */
@@ -65,7 +65,7 @@ int execute(char **args, char *program, int n)
 
 /**
  * signal_handler - handles sigint
- *
+ * will handle signal shortcuts (ctrl....)
  *
  *@sig: signal
  */

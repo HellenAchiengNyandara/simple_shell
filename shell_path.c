@@ -50,7 +50,8 @@ path_t *make_path(void)
 }
 
 /**
- * free_path - freesthe path l.list
+ * free_path - frees the path
+ * the path (of the linked list)
  * @head: linked list
  *
  */
