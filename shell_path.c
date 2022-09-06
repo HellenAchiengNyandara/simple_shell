@@ -2,9 +2,9 @@
 #include "shell.h"
 
 /**
- * make_path - make path
+ * make_path - make path for the cell
  *
- * Return: returns the head of the path;
+ * Return: returns the head of the path
  */
 
 path_t *make_path(void)
@@ -50,7 +50,7 @@ path_t *make_path(void)
 }
 
 /**
- * free_path - frees a linked list
+ * free_path - freesthe path l.list
  * @head: linked list
  *
  */
@@ -66,11 +66,11 @@ void free_path(path_t *head)
 }
 
 /**
- * check_path - checks path
+ * check_path - checks path per set arguments
  * @head: head of PATH linked list
- * @command: command from arguments
+ * @command: argument command
  *
- * Return: returns the proper path or NULL on failure
+ * Return: path or NULL on failure
  */
 
 char *check_path(path_t *head, char *command)
