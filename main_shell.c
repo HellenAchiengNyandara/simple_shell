@@ -12,7 +12,9 @@ void prompt(char *program)
 	int x, status, line_num = 0;
 
 	env = _environ();
+
 	main_path = make_path();
+
 	status = 1;
 	signal(SIGINT, signal_handler);
 
