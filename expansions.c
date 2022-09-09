@@ -19,7 +19,6 @@ void expand_variables(data_of_program *data)
 			line[i--] = '\0';
 		else if (line[i] == '$' && line[i + 1] == '?')
 		{
-
 			line[i] = '\0';
 			long_to_string(errno, expansion, 10);
 			buffer_add(line, expansion);
@@ -44,7 +43,6 @@ void expand_variables(data_of_program *data)
 			temp ? buffer_add(line, temp) : 1;
 			buffer_add(line, expansion);
 		}
-
 	if (!str_compare(data->input_line, line, 0))
 	{
 		free(data->input_line);
