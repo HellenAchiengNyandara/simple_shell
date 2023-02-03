@@ -1,4 +1,13 @@
-C - Simple Shell project
+C - A simple unix shell
+
+
+PROJECT DONE BY GROUP:
+
+MEMBERS:
+1.
+2.
+
+
 
 - This code will work on any unix machine. We created our own functions for systems that may have library errors.
 - This program works as a normal unix shell
@@ -7,8 +16,8 @@ C - Simple Shell project
 
 TO COMPILE
 
-Run: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+Run: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o sshel
 
-Then: ./hsh
+Then: ./sshel
 
 
